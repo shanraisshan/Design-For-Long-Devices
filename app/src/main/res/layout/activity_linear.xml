@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="360dp"
+        android:layout_height="160dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@color/red"
+        android:text="360dp x 160dp\nBox 1\n360dp x 160dp"
+        android:textColor="@color/black" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="360dp"
+        android:layout_height="160dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@color/green"
+        android:text="360dp x 160dp\nBox 2\n360dp x 320dp"
+        android:textColor="@color/black" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="360dp"
+        android:layout_height="160dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@color/blue"
+        android:text="360dp x 160dp\nBox 3\n360dp x 480dp"
+        android:textColor="@color/black" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="360dp"
+        android:layout_height="160dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@color/yellow"
+        android:text="360dp x 160dp\nBox 4\n360dp x 640dp"
+        android:textColor="@color/black" />
+</LinearLayout>
